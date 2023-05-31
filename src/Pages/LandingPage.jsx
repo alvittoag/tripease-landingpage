@@ -132,17 +132,23 @@ export default function LandingPage() {
                 <div className="bg-[#F9FAFB] justify-center flex">
                 <div className="">
                     <CardFAQ
-                    text={'Apa yang membedakan Tripease dari platform perjalanan lainnya?'}/>
+                        text={'Apa yang membedakan Tripease dari platform perjalanan lainnya?'}
+                        description={'Tripease menyediakan kombinasi fitur canggih dan antarmuka yang mudah digunakan untuk merencanakan perjalanan Anda. Dari penelusuran destinasi yang akurat hingga manajemen pemesanan yang efisien, kami menawarkan pengalaman perjalanan yang tak terlupakan.'}/>
                     <CardFAQ
-                    text={'Bagaimana cara saya melakukan pemesanan melalui Tripease?'}/>
+                        text={'Bagaimana cara saya melakukan pemesanan melalui Tripease?'}
+                        description={'Pemesanan melalui Tripease mudah dil akukan. Anda dapat memilih destinasi, tanggal perjalanan, dan preferensi lainnya, dan sistem kami akan menampilkan opsi terbaik untuk Anda. Setelah itu, Anda dapat melanjutkan dengan proses pembayaran yang aman dan nyaman.'}/>
                     <CardFAQ
-                    text={'Apakah Tripease menyediakan ulasan pengguna?'}/>
+                        text={'Apakah Tripease menyediakan ulasan pengguna?'}
+                        description={'Ya, Tripease memiliki fitur ulasan pengguna yang memungkinkan pengguna lain berbagi pengalaman mereka. Anda dapat membaca ulasan dari pengguna lain untuk mendapatkan wawasan dan rekomendasi sebelum Anda membuat keputusan perjalanan.'}/>
                     <CardFAQ
-                    text={'Bagaimana jika saya membutuhkan bantuan selama perjalanan saya?'}/>
+                        text={'Bagaimana jika saya membutuhkan bantuan selama perjalanan saya?'}
+                        description={'Tim dukungan pelanggan Tripease siap membantu Anda dengan pertanyaan atau masalah apa pun yang Anda hadapi selama perjalanan. Anda dapat menghubungi kami melalui layanan pelanggan 24/7 kami untuk mendapatkan bantuan yang dibutuhkan.'}/>
                     <CardFAQ
-                    text={'Apakah Tripease menawarkan penawaran khusus atau diskon?'}/>
+                        text={'Apakah Tripease menawarkan penawaran khusus atau diskon?'}
+                        description={'Ya, Tripease menyediakan penawaran khusus dan diskon dari waktu ke waktu. Pastikan untuk mendaftar ke newsletter kami atau mengikuti akun media sosial kami untuk mendapatkan informasi terbaru tentang penawaran spesial.'}/>
                     <CardFAQ
-                    text={'Bagaimana cara menghubungi tim dukungan pelanggan Tripease?'}/>
+                        text={'Bagaimana cara menghubungi tim dukungan pelanggan Tripease?'}
+                        description={'Anda dapat menghubungi tim dukungan pelanggan Tripease melalui formulir kontak di halaman kami atau melalui email dan nomor telepon yang tercantum di situs kami. Tim kami siap membantu menjawab pertanyaan atau memberikan bantuan yang Anda butuhkan.'}/>
                 </div>
                 </div>
             </div>
