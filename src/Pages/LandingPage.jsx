@@ -91,13 +91,13 @@ export default function LandingPage() {
                 </div>
             </div>
 
-            <div className="bg-white flex items-center justify-evenly py-[96px] px-[152px] ">
+            <div className="bg-white flex flex-wrap items-center justify-evenly py-[96px] px-[152px] ">
                 <img src={assets.visimisi} alt="" />
 
                 <div className="flex flex-col max-h-[380] ">
-                    <p className="text-[#262627] text-[32px] font-[700] pb-[64px]">“Menghubungkan Dunia Melalui Petualangan Tanpa Batas.”</p>
+                    <p className="text-[#262627] text-[32px] font-[700] pb-[64px] max-w-[500px]">“Menghubungkan Dunia Melalui Petualangan Tanpa Batas.”</p>
                     <p className="text-[#262627] font-[700] text-[32px] pb-[12px]">Misi</p>
-                    <p className="text-[#4B4C4E] font-[400] leading-7">Misi kami adalah membantu Anda mewujudkan perjalanan impian Anda dengan memberikan akses ke destinasi yang menakjubkan, penawaran terbaik, dan pemesanan yang mudah. Kami berkomitmen untuk memberikan pengalaman perjalanan yang tak terlupakan dan memberikan inspirasi untuk petualangan baru.</p>
+                    <p className="text-[#4B4C4E] font-[400] leading-7 max-w-[500px]">Misi kami adalah membantu Anda mewujudkan perjalanan impian Anda dengan memberikan akses ke destinasi yang menakjubkan, penawaran terbaik, dan pemesanan yang mudah. Kami berkomitmen untuk memberikan pengalaman perjalanan yang tak terlupakan dan memberikan inspirasi untuk petualangan baru.</p>
                 </div>
             </div>
 

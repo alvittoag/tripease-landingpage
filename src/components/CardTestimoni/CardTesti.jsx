@@ -5,7 +5,7 @@ export default function CardTesti(props) {
     const { nama, tanggal, testimoni } = props
   return (
     <div className='bg-[#F9FAFB] border border-[#D2D7E0] rounded-xl max-w-[684px]'>
-      <div className="flex gap-3 p-[16px]">
+      <div className="flex gap-3 p-[16px] flex-wrap">
         <div className="">
             <img src={assets.profile} alt="" />
         </div>

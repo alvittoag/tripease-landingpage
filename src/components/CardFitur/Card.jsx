@@ -4,7 +4,7 @@ import assets from '../../assets/assets'
 export default function Card(props) {
     const { img, title, description } = props
   return (
-    <div className='max-w-[300px]'>
+    <div className='max-w-[300px] sm:pt-4'>
       <img src={img} alt="" />
       <div className="flex flex-col text-center">
         <p className='text-[#262627] font-[700] text-[16px] pt-[48px]'>{title}</p>
