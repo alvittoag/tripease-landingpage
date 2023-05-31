@@ -4,7 +4,7 @@ import assets from '../../assets/assets'
 export default function Footer() {
   return (
     <div className="">
-        <div className='bg-[#4B4C4E] pt-[32px] pb-[64px] justify-evenly flex flex-wrap mb-1'>
+        <div className='bg-[#4B4C4E] pt-[32px] pb-[64px] justify-evenly flex flex-wrap border-b-2 border-white'>
             <div className=" max-w-[500px]">
                 <img src={assets.logoFooter} alt="" className='pb-[32px]'/>
                 <p className='text-white font-[600] leading-loose'>Mulailah petualangan perjalananmu sekarang dan temukan keajaiban dunia dengan Tripease! Bergabunglah dengan komunitas kami dan rasakan pengalaman perjalanan yang tak terlupakan</p>

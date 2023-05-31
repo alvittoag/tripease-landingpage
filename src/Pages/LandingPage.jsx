@@ -12,7 +12,7 @@ export default function LandingPage() {
     <div>
         <Navbar/>
         <Hero/>
-            <div className=" Partner flex flex-col">
+            <div className=" Partner flex flex-col bg-white">
                 <p className="text-[#262627] font-[600] text-center py-[16px]">Partner</p>
 
                 <div className="grid grid-cols-7 px-[32px] pb-[32px]">
@@ -121,7 +121,7 @@ export default function LandingPage() {
                 </div>
             </div>
 
-            <div className="FAQ pb-[96px]">
+            <div className="FAQ pb-[96px] bg-[#F9FAFB]">
                 <div className="bg-[#F9FAFB] justify-center flex">
                 <div className="text-center py-[64px] max-w-[70%] pt-[96]">
                     <p className="text-[32px] font-[700]">Frequently Asked Questions</p>

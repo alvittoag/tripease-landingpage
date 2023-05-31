@@ -26,10 +26,10 @@ export default function CardFAQ(props) {
   return (
     <Fragment>
       <Accordion open={open === 1} icon={<Icon id={1} open={open} />}>
-        <AccordionHeader onClick={() => handleOpen(1)} className='bg-white py-[23px] max-w-[910px] border border-[#D2D7E0] px-[32px] flex justify-between items-center cursor-pointer mb-[32px] hover:bg-[#f9fcff]'>
+        <AccordionHeader onClick={() => handleOpen(1)} className='bg-white py-[23px] max-w-[910px] border border-[#D2D7E0] px-[32px] flex justify-between items-center cursor-pointer mt-[32px] rounded-t-xl hover:bg-[#f9fcff]'>
           {text}
         </AccordionHeader>
-        <AccordionBody className='max-w-[910px] p-5 px-10 bg-white border border-[#D2D7E0] mb-[32px] text-[#262627] text-[20px] leading-loose'>
+        <AccordionBody className='rounded-b-xl max-w-[910px] px-10 bg-white border border-[#D2D7E0] mb-[32px] text-[#262627] text-[20px] leading-loose'>
           {description}
         </AccordionBody>
       </Accordion>
