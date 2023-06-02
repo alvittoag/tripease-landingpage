@@ -11,12 +11,12 @@ export default function Navbar() {
             </div>
 
             <div className="p-2">
-                <div className="flex space-x-7 text-[#717275] active:text-[#FF7300]">
-                    <a href="">Beranda</a>
-                    <a href="">Tentang Kami</a>
-                    <a href="">Fitur</a>
-                    <a href="">Testimoni</a>
-                    <a href="">FAQ</a>
+                <div className="flex space-x-7 text-[#717275] ">
+                    <a href="#beranda" className='active:text-[#FF7300]'>Beranda</a>
+                    <a href="#tentangKami" className='active:text-[#FF7300]'>Tentang Kami</a>
+                    <a href="#fitur" className='active:text-[#FF7300]'>Fitur</a>
+                    <a href="#testimoni" className='active:text-[#FF7300]'>Testimoni</a>
+                    <a href="#faq" className='active:text-[#FF7300]'>FAQ</a>
                 </div>
             </div>
 
